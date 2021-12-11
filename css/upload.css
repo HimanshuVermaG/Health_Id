@@ -1,0 +1,53 @@
+.container{
+    display: block;
+}
+.upload-block{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    position: relative;
+    text-align: center;
+    justify-content:center;
+    grid-gap: 50px;
+}
+.containt{
+    margin-left:200px;
+    width: 1090px;
+}
+.heading hr {
+    display: inline-block;
+    border: 1px solid black;
+    width: 215px;
+    margin-top: 0px;
+}
+.heading h2{
+    margin-bottom: 5px;
+}
+.heading h4{
+    margin: 0px;
+}
+.block{
+    height: 55px;
+    width: 320px;
+    border-radius:8px;
+    background-color: #BCF2FF;
+    display: grid;
+    grid-template-columns: 70px auto 40px;
+}
+
+.blocks{
+    margin: 35px 20px 20px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.data{
+    width: 200px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.blocks h3{
+    margin: 6px 0px 0px 0px;
+}
+.blocks h5{
+    margin: 0px 0px 6px 0px;
+}

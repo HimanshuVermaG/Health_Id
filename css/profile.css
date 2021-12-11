@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    margin-top: 30px;
+    height: 600px;
+    justify-content: center;
+    align-content:center;
+    border: 3px solid none;
+}
+.id{
+    display: flex;
+    border-radius: 40px;
+    height:400px;
+    width: 650px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 9px -3px #888888;
+    text-align: center;
+    background-color: #BCF2FF;
+
+}
+.id-sidebar{
+    width: 70px;
+    height: 399px;
+    border-radius: 0px 40px 40px 0px;
+    background-color: white;
+    margin-right: 80px;
+    writing-mode: vertical-rl;
+    text-orientation:sideways;
+    transform: rotate(180deg);
+}
+.id-barcode{
+    text-orientation:sideways;
+    transform: rotate(-90deg);
+
+}
+table, table tr td {
+    width: 390px;
+    margin: 0 auto;
+    text-align: left;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+
+
