@@ -45,7 +45,6 @@
 .page{
     height: 50px;
     width: 200px;
-    border: 2px solid black;
     margin-left: 200px;
     border-radius: 10px;
     display: flex;
@@ -53,4 +52,8 @@
     padding-left: 10px;
     background-color: #0CB0D6;
 
+}
+.page{
+    margin-top: 20px;
+    margin-bottom: 45px;
 }
