@@ -1,0 +1,24 @@
+.upper{
+    display: flex;
+    margin: 100px 0px 10px 100px;
+    height: 90vh;
+}
+.upper-containt{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.bottom{
+    display: grid;
+    grid-template-rows: 400px;
+}
+.bottom-containt{
+    /* margin:0px 140px 0px 0px; */
+    text-align: center;
+    height: 90vh;
+    font-size: 2rem;
+    margin: 0px 200px;
+}
