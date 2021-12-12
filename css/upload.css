@@ -14,11 +14,11 @@
     margin-left:200px;
     width: 1090px;
 }
-.heading hr {
-    display: inline-block;
-    border: 1px solid black;
-    width: 215px;
-    margin-top: 0px;
+.heading{
+    border: 1px;
+    border-style: none none solid none;
+    width: max-content;
+    padding: 10px;
 }
 .heading h2{
     margin-bottom: 5px;
