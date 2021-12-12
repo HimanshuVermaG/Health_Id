@@ -1,14 +1,3 @@
-nav a {
-    color: #000;
-    font-size: 20px;
-    padding: 6px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: 5px rgb(255, 0, 34) underline;
-}
-
 h1 {
     text-align: center;
     margin: 20px;
@@ -31,6 +20,7 @@ h1 {
 }
 .que {
     font-size: 18px;
+    width: 1200px;
 }
 
 #answer2 {
@@ -42,14 +32,6 @@ h1 {
 }
 
 /********/
-.faq {
-    max-width: 700px;
-    margin-top: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #fff;
-    cursor: pointer;
-}
-
 .question {
     display: flex;
     justify-content: space-around;
@@ -66,8 +48,12 @@ h1 {
     line-height: 1.6;
     font-size: 1.4rem;
 }
-.que{
-    width: 1200px;
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
 }
 .faq.active .answer {
     max-height: 300px;
