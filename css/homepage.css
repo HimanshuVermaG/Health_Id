@@ -1,6 +1,12 @@
 header{
     height:10vh;
 }
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
 .container{
     margin: 50px;
 }
