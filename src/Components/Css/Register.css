@@ -1,0 +1,74 @@
+#image-container{
+    width: 90%;
+    height: 90%;
+}
+.img{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.side{
+    background-image: url(../Images/register.jpg);
+    width: 680px;
+    height: 500px;
+    margin-top: 80px;
+}
+#fields{
+    width: 90%;
+    height: 90%;
+}
+.heading-section{
+    text-align: center;
+    margin-top: 40px;
+}
+span{
+    font-weight: bold;
+}
+.input-fields{
+    display: grid;
+    grid-row: auto auto;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+.input-container{
+    font-size: 18px;
+    display: grid;
+    grid-row: auto auto;
+    width : 220px;
+    margin-top:20px;
+
+}
+input{
+    border:none;
+    background-color:#F2F2F2;
+    border-radius:6px;
+    margin-top:10px;
+    height :40px;
+    padding:0 10px;
+    font-size: 16px;
+    width: 400px;
+}
+.other{
+    margin: 20px 0;
+    font-size: 16px;
+}
+button{
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin: 10px 0;
+    width :160px;
+    height :40px;
+    background-color: #017590;
+}
+.two-fields{
+    display:flex;
+    grid-column: auto auto;
+}
+.two-fields input{
+    width:180px;
+}
